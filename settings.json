@@ -1,0 +1,148 @@
+/*
+ * ***********************************************************
+ * * This piece of information is originated by and the      *
+ * * intellectual property of Esri China (Hong Kong) Limited.*
+ * ***********************************************************
+ *  Name of Code Originator : Cyril Lee
+ *  Creation Date : 2019-05-07
+ *  Description/Purpose : N/A
+ *  Required Inputs : N/A
+ *  Expected Outputs : N/A
+ */
+
+{
+  "editor.fontSize": 14,
+  "window.zoomLevel": 1,
+  "workbench.startupEditor": "newUntitledFile",
+  "python.linting.flake8Enabled": false,
+  "python.formatting.provider": "autopep8",
+  "python.linting.pylintArgs": ["--disable=C0111, C0103"],
+  "python.pythonPath": "C:\\Python27\\ArcGIS10.3",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "One Dark Pro",
+  "material-icon-theme.showUpdateMessage": false,
+  "terminal.external.windowsExec": "C:\\cmder\\Cmder.exe",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  "terminal.integrated.shellArgs.windows": ["/K", "C:\\cmder\\vscode.bat"],
+  "terminal.integrated.fontFamily": "Anonymous Pro for Powerline",
+  "html.autoClosingTags": false,
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "indent_size": "1",
+      "indent_char": "\t",
+      "max_preserve_newlines": "2",
+      "preserve_newlines": true,
+      "keep_array_indentation": true,
+      "break_chained_methods": false,
+      "indent_scripts": "separate",
+      "brace_style": "collapse",
+      "space_before_conditional": true,
+      "unescape_strings": false,
+      "jslint_happy": false,
+      "end_with_newline": false,
+      "wrap_line_length": "0",
+      "indent_inner_html": false,
+      "comma_first": false,
+      "e4x": false,
+      "wrap_attributes": "force-aligned"
+    }
+    // {
+    // "wrap_attributes": "force-aligned"
+    // "wrap_line_length": 200,
+    // "wrap_attributes": "auto",
+    // "end_with_newline": false
+    // }
+  },
+  "vetur.format.defaultFormatter.css": "prettier",
+  "vetur.format.defaultFormatter.postcss": "prettier",
+  "vetur.format.defaultFormatter.scss": "prettier",
+  "vetur.format.defaultFormatter.less": "prettier",
+  "vetur.format.defaultFormatter.js": "prettier",
+  "vetur.format.defaultFormatter.ts": "prettier",
+  "vetur.format.defaultFormatter.stylus": "stylus-supremacy",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "prettier.disableLanguages": ["js"],
+  "files.autoSave": "onFocusChange",
+  "editor.cursorBlinking": "blink",
+  "csharp.format.enable": false,
+  "psi-header.config": {
+    "forceToTop": true,
+    "blankLinesAfter": 1,
+    "license": "Custom"
+  },
+  "editor.tabSize": 2,
+  "psi-header.changes-tracking": {
+    "isActive": true,
+    "modAuthor": "Modified By: ",
+    "modDate": "Last Modified: ",
+    "modDateFormat": "date",
+    "include": [],
+    "exclude": [
+      "markdown",
+      "json"
+    ],
+    "excludeGlob": [
+      "out/**",
+      "src/**/*.xyz"
+    ],
+    "autoHeader": "manualSave"
+  },
+  "psi-header.license-text": [
+    "All shall be well and all shall be well and all manner of things shall be well.",
+    "Nope...we're doomed!"
+  ],
+  "psi-header.variables": [
+    ["company", "psioniq"],
+    ["author", "Arthur Bodkin"],
+    ["authoremail", "art@psioniq.uk"]
+  ],
+  "psi-header.lang-config": [{
+      "language": "python",
+      "begin": "###",
+      "prefix": "# ",
+      "end": "###",
+      "blankLinesAfter": 0,
+      "beforeHeader": [
+        "#!/usr/bin/env python3",
+        "# -*- coding:utf-8 -*-"
+      ]
+    },
+    {
+      "language": "javascript",
+      "begin": "/**",
+      "prefix": " * ",
+      "end": " */",
+      "blankLinesAfter": 2,
+      "forceToTop": false
+    },
+    {
+      "language": "typescript",
+      "mapTo": "javascript"
+    }
+  ],
+  "psi-header.templates": [{
+    "language": "*",
+    "template": [
+      "***********************************************************",
+      "* This piece of information is originated by and the      *",
+      "* intellectual property of Esri China (Hong Kong) Limited.*",
+      "***********************************************************",
+      " Name of Code Originator : Cyril Lee",
+      " Creation Date : <<filecreated('YYYY-MM-DD')>>",
+      " Description/Purpose : N/A",
+      " Required Inputs : N/A",
+      " Expected Outputs : N/A"
+    ],
+    "changeLogCaption": "HISTORY:",
+    "changeLogHeaderLineCount": 2,
+    "changeLogEntryTemplate": [
+      "<<dateformat('YYYY-MM-DD')>>\t<<initials>>\t"
+    ]
+  }]
+}
