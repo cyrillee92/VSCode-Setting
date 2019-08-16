@@ -1,0 +1,25 @@
+{
+  "editor.fontSize": 14,
+  "window.zoomLevel": 1,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.showUpdateMessage": false,
+  "terminal.external.windowsExec": "D:\\Cyril\\Programs\\cmder\\Cmder.exe",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  "terminal.integrated.shellArgs.windows": [
+    "/K",
+    "D:\\Cyril\\Programs\\cmder\\vendor\\init.bat"
+  ],
+  "terminal.integrated.fontFamily": "Anonymous Pro for Powerline",
+  "html.autoClosingTags": false,
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "prettier.disableLanguages": ["js"],
+  "files.autoSave": "onFocusChange",
+  "editor.cursorBlinking": "blink",
+  "csharp.format.enable": false,
+  "editor.tabSize": 2,
+  "workbench.colorTheme": "Night Owl"
+}
